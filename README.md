@@ -8,6 +8,12 @@ This Java application is designed to demonstrate and compare the performance of 
 - **Parallel Stream Filtering**: Accomplishes the same task using a parallel stream.
 - **Performance Comparison**: Measures and displays the execution time of both methods to highlight the impact of parallel processing.
 
+## Java Features Used
+- **Stream API**: Utilizes `stream()` and `filter()` for processing collections.
+- **Parallel Streams**: Leverages multi-core processors for faster computation in parallel processing.
+- **Collectors**: Used to collect the results of stream processing.
+- **Lambda Expressions**: Simplifies the implementation of the filter condition.
+
 ## How to Use
 1. **Run the Application**: Start the `FilteringChallenge` class.
 2. **Observe the Output**: The application will execute both the sequential and parallel filtering methods on a predefined list of integers, displaying the execution time for each in milliseconds.
